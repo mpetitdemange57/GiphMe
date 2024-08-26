@@ -31,4 +31,6 @@ function buttonDownloadClick($event, urlImageAssociee){
     $event.stopPropagation();
     downloadURI(urlImageAssociee, "Test");
 
+    fetch()
+
 }
