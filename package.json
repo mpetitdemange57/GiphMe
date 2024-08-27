@@ -2,9 +2,11 @@
   "name": "giphme",
   "version": "1.0.0",
   "description": "https://developer.webex.com/docs/getting-started",
-  "main": "content.js",
+  "main": "./scripts/content.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -23,7 +25,11 @@
   },
   "homepage": "https://github.com/mpetitdemange57/GiphMe#readme",
   "dependencies": {
+    "typescript": "^5.5.4",
     "watch": "^1.0.2",
     "webex": "^3.3.1"
+  },
+  "devDependencies": {
+    "vite": "^5.4.2"
   }
 }

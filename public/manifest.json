@@ -5,7 +5,7 @@
     "description": "Allow to download some giph directly with one button",
     "content_scripts": [
       {
-        "js": ["scripts/content.js"],
+        "js": ["main.js"],
         "matches": [
           "https://tenor.com/**",
           "http://tenor.com/**"
